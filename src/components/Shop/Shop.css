@@ -1,10 +1,27 @@
+
 .shop-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+
 }
+
 .products-container{
-    margin: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
+    gap:10px;
+    padding: 40px;
+
+}
+
+.btn-proceed{
+    width: 90%;
+    background-color: rgb(39, 17, 209);
+    color:white;
+    margin:5px;
+    padding:5px;
+    
+}
+
+.review-icon{
+    margin-left:20px;
 }

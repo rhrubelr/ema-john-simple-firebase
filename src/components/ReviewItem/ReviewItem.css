@@ -1,0 +1,34 @@
+.review-item{
+    border:1px solid gray;
+    margin:10px;
+    padding:10px;
+    height: 107px;
+    width: 700px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.review-item img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.review-details{
+    flex-grow: 1;
+}
+.review-details p{
+    margin:0 12px;
+}
+.text-yellow{
+    color:goldenrod;
+}
+.btn-delete{
+    height: 55px;
+    width: 55px;
+    background-color: rgba(198, 116, 109, 0.655);
+    border-radius: 50%;
+}
+.delete-icon{
+    color:red;
+
+}
